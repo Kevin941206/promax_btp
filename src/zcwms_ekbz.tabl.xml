@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_TABL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD02V>
+    <TABNAME>ZCWMS_EKBZ</TABNAME>
+    <DDLANGUAGE>S</DDLANGUAGE>
+    <TABCLASS>INTTAB</TABCLASS>
+    <DDTEXT>CWM Enhancements for Table EKBZ</DDTEXT>
+    <MASTERLANG>S</MASTERLANG>
+    <EXCLASS>1</EXCLASS>
+   </DD02V>
+   <DD03P_TABLE>
+    <DD03P>
+     <FIELDNAME>/CWM/BAMNG</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>P</INTTYPE>
+     <INTLEN>000007</INTLEN>
+     <REFTABLE>ZEKPO</REFTABLE>
+     <REFFIELD>LMEIN</REFFIELD>
+     <DATATYPE>QUAN</DATATYPE>
+     <LENG>000013</LENG>
+     <MASK>  QUAN</MASK>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>/CWM/WESBS</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>P</INTTYPE>
+     <INTLEN>000007</INTLEN>
+     <REFTABLE>ZEKPO</REFTABLE>
+     <REFFIELD>MEINS</REFFIELD>
+     <DATATYPE>QUAN</DATATYPE>
+     <LENG>000013</LENG>
+     <MASK>  QUAN</MASK>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>/CWM/TY2TQ</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>C</INTTYPE>
+     <INTLEN>000002</INTLEN>
+     <DATATYPE>CHAR</DATATYPE>
+     <LENG>000001</LENG>
+     <MASK>  CHAR</MASK>
+    </DD03P>
+   </DD03P_TABLE>
+  </asx:values>
+ </asx:abap>
+</abapGit>

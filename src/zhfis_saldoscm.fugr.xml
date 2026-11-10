@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Gpo. Funci. HFISCALES Extractor Saldos</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>SAPLZHFIS_SALDOSCM</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZHFIS_SALDOSCM</FUNCNAME>
+     <SHORT_TEXT>Extractor de Saldos de Cuentas de Mayor</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>I_COMPANY_CODE</PARAMETER>
+       <TYP>BUKRS</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_YEAR</PARAMETER>
+       <TYP>GJAHR</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_PERIOD</PARAMETER>
+       <TYP>ZRPMAX</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_ACCOUNT</PARAMETER>
+       <TYP>ZTTHFIS_RACCT</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>E_SALDOSCM</PARAMETER>
+       <TYP>ZTT_SALDOSCM</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>I_COMPANY_CODE</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_YEAR</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_PERIOD</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_ACCOUNT</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>E_SALDOSCM</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

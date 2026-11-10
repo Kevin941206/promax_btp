@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Extractor datos BKPF-BSEG.</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZALL_EXTR_BKPFTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZALL_EXTR_BKPF</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZALL_EXTRACTOR_BKPF</FUNCNAME>
+     <SHORT_TEXT>Extractor datos BKPF-BSEG</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>BUKRS</PARAMETER>
+       <TYP>BUKRS</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>BLART</PARAMETER>
+       <TYP>BLART</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>FECH_INI</PARAMETER>
+       <TYP>DATUM</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>FECH_FIN</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>DATUM</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>USNAM</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>USNAM</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>TAB_RESULT</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZFI_TT_ALLX_BKPF</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>BUKRS</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>BLART</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>FECH_INI</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>FECH_FIN</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>USNAM</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>TAB_RESULT</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
